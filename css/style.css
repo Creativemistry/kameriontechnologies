@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300);
+body{
+	margin: 0;
+    font-family: 'Open Sans';
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #e7e7e7;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.navbar{
+	border-bottom: 0;
+}
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-nav>li>a>i{
+	font-size: 16px;
+	padding-left: 5px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #eee;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: none;
+    min-width: 360px;
+    padding: 10px 10px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0px solid #ccc;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0);
+    box-shadow: 0 6px 12px rgba(0,0,0,0);
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: transparent;
+}
+.search-box{
+	border-radius: 4px;
+	width: 100%;
+	outline: none;
+	border: none;
+	padding: 10px 10px;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 38px;
+    padding-top: 10px;
+}
+.media{
+    display: none !important;
+}
+.menu-toggle{
+    position: absolute;
+    top: 55%;
+    left: 40;
+    z-index: 1000;
+    display: none;
+    float: none;
+    min-width: 360px;
+    padding: 10px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0px solid #ccc;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0);
+    box-shadow: 0 6px 12px rgba(0,0,0,0);
+}
+.menu-toggle>li>a {
+    display: block;
+    padding: 5px 20px;
+    clear: both;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.bxslider li i{
+    font-size: 52px;
+    color: #333;
+    opacity: 0.5;
+}
+.bxslider li span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    padding: 10px 0;
+    display: block; 
+}
+.bxslider li i:hover{
+    opacity: 1;
+}
+.slider{
+    padding-top: 40px;
+    border-bottom: 2px solid #de1750;
+}
+.bp-wrapper{
+    background-color: #f5f5f5;
+}
+.blog{
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.blog a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6d6d6d;
+}
+.blog-heading{
+    padding: 15px 0;
+    display: block;
+}
+.blog a:hover{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.heading{
+    padding: 20px 0 30px 0;
+}
+.partners img{
+    padding: 80px 0;
+    margin: 0 auto;
+}
+.footer-wrapper{
+    background-color: #333333;
+}
+.fh{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 40px 0 20px 0;
+    display: block;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer ul li a{
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0;
+    display: block; 
+}
+.footer ul p{
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 0;
+    display: block;
+}
+.copyright-wrapper{
+    background-color: #272727;
+    padding: 20px 0 5px 0;
+}
+.copyright-wrapper p{
+    color: #3e3e3e;
+}
+.social ul li a{
+    font-size: 22px;
+    color: #fff;
+    opacity: 0.5;
+}
+.social ul li a:hover{
+    opacity: 1;
+}
+
+
+
+@media(max-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .media{
+        display: block !important;
+    }
+    .fa-bars{
+        display: none;
+    }
+    .blog img{
+        margin: 0 auto;
+    }
+
+}
