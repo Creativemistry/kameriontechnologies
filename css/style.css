@@ -15,6 +15,9 @@ body{
     position: absolute;
     top: 0;
 }
+.inner-navbar{
+    position: relative;
+}
 .navbar{
 	border-bottom: 0;
 }
@@ -198,6 +201,78 @@ body{
 .social ul li a:hover{
     opacity: 1;
 }
+.header{
+    background-color: #9d7ec2;
+    width: 100%;
+}
+.bar{
+    background: url(../images/progress-bar.png);
+}
+.header-heading h1{
+    color: #fff;
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.header-heading p{
+    color: #fff;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.inner-wrapper{
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+.inner-content h2{
+    color: #4f4f4f;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+.inner-content p{
+    line-height: 2;
+}
+.list{
+    padding-bottom: 40px;
+}
+.inner-content img{
+    margin: 0 auto;
+}
+.list-heading{
+    font-weight: 300;
+    margin: 0;
+    padding: 40px 0;
+}
+.list ul{
+    padding: 0;
+    margin: 0;
+}
+.list ul li{
+    line-height: 2;
+    list-style-type: none;
+}
+.list ul li i{
+    padding-right: 5px;
+}
+.list-wrapper{
+    background-color: #fffcef;
+}
+.btn-btn{
+    background-color: #444444;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 10px 40px;
+}
+.btn-btn:hover{
+    background-color: #333333;
+    color: #fff;
+}
+
+
+
+
 
 
 
@@ -217,3 +292,4 @@ body{
     }
 
 }
+
